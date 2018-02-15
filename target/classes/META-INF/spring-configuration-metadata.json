@@ -2,20 +2,25 @@
   "groups": [
     {
       "name": "com.vgc",
-      "type": "com.spring.boot.config.ConfigBean",
-      "sourceType": "com.spring.boot.config.ConfigBean"
+      "type": "com.spring.boot.config.MultipleProperities",
+      "sourceType": "com.spring.boot.config.MultipleProperities"
     },
     {
       "name": "com.vgc",
-      "type": "com.spring.boot.config.MultipleProperities",
-      "sourceType": "com.spring.boot.config.MultipleProperities"
+      "type": "com.spring.boot.config.ConfigBean",
+      "sourceType": "com.spring.boot.config.ConfigBean"
     }
   ],
   "properties": [
     {
       "name": "com.vgc.provider",
       "type": "java.lang.String",
-      "sourceType": "com.spring.boot.config.ConfigBean"
+      "sourceType": "com.spring.boot.config.MultipleProperities"
+    },
+    {
+      "name": "com.vgc.provider",
+      "type": "java.lang.String",
+      "sourceType": "com.spring.boot.config.MultipleProperities"
     },
     {
       "name": "com.vgc.provider",
@@ -25,10 +30,15 @@
     {
       "name": "com.vgc.provider",
       "type": "java.lang.String",
+      "sourceType": "com.spring.boot.config.ConfigBean"
+    },
+    {
+      "name": "com.vgc.type",
+      "type": "java.lang.String",
       "sourceType": "com.spring.boot.config.MultipleProperities"
     },
     {
-      "name": "com.vgc.provider",
+      "name": "com.vgc.type",
       "type": "java.lang.String",
       "sourceType": "com.spring.boot.config.MultipleProperities"
     },
@@ -41,16 +51,6 @@
       "name": "com.vgc.type",
       "type": "java.lang.String",
       "sourceType": "com.spring.boot.config.ConfigBean"
-    },
-    {
-      "name": "com.vgc.type",
-      "type": "java.lang.String",
-      "sourceType": "com.spring.boot.config.MultipleProperities"
-    },
-    {
-      "name": "com.vgc.type",
-      "type": "java.lang.String",
-      "sourceType": "com.spring.boot.config.MultipleProperities"
     }
   ],
   "hints": []
