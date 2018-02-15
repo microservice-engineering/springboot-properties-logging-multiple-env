@@ -8,7 +8,6 @@ import com.spring.boot.config.ConfigBean;
 import com.spring.boot.config.MultipleProperities;
 
 @SpringBootApplication
-@EnableConfigurationProperties({ConfigBean.class, MultipleProperities.class})
 public class Chapter1Application {
 
 	public static void main(String[] args) {

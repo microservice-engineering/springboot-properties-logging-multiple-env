@@ -5,6 +5,7 @@ import org.springframework.context.annotation.Configuration;
 
 import lombok.Data;
 
+//配置文件注入
 @Configuration
 @ConfigurationProperties(prefix="com.vgc")
 @Data

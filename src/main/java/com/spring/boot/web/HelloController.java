@@ -21,7 +21,7 @@ public class HelloController {
 
     @RequestMapping("/hello")
     public String index() {
-    		log.info("testing purpose: {}", "info level");
+    		log.info("testing purpose: {}", mConfigBean.getProvider());
     		log.debug("testing purpose: {}", "debug level");
         return "Hello,World!";
     }
